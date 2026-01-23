@@ -12,4 +12,3 @@ weight_in_kg_rounded = round(weight_in_kg)
 
 print("You entered:", weight_in_pounds_float)
 print(f"Your weight in kg is: {weight_in_kg_rounded}")
-
