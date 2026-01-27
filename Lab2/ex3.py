@@ -1,5 +1,5 @@
 # ask the user to create a floating point number. square the number.
-# Print out the original number and the sqaured result. 
+# Print out the original number and the squared result. 
 # Name: Ethan Mayer
 # Date: Jan. 22, 2026
 
