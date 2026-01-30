@@ -16,4 +16,15 @@ def sqrt(number):
 def exponent(base, exp, precision):
     """Calculate the exponentiation of a base to a given exponent"""
     result = base ** exp
-    return round(result, precision)
+    rounded_result = round(result, precision=2)
+    return rounded_result
+
+def max(num1, num2):
+    # return the maximum of two numbers
+    return num1 if num1 > num2 else num2
+
+def min(num1, num2):
+    # return the minimum of two numbers
+    return num1 if num1 < num2 else num2
+
+def absolute_value(number):
