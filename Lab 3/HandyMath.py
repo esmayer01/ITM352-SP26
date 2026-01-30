@@ -28,3 +28,5 @@ def min(num1, num2):
     return num1 if num1 < num2 else num2
 
 def absolute_value(number):
+    """Return the absolute value of a number."""
+    return number if number >= 0 else -number
