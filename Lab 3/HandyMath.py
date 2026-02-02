@@ -30,3 +30,10 @@ def min(num1, num2):
 def absolute_value(number):
     """Return the absolute value of a number."""
     return number if number >= 0 else -number
+
+def apply_function(x, y, func):
+    """
+    Applies a function to x and y and returns a formatted string.
+    """
+    result = func(x, y)
+    return f"The function {func.__name__} {x}, {y} = {result}"
