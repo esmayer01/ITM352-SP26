@@ -41,3 +41,9 @@ def total_sales_by_region_and_order_type(df):
     print(pivot)
 
     ask_export_to_excel(pivot)
+
+try:
+    df = pd.read_csv("sales_data_test.csv")
+    total_sales_by_region_and_order_type(df)
+except Exception as e:
+    print(f"Error loading file: {e}")
